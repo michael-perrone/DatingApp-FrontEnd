@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { vh, vw } from "react-native-expo-viewport-units";
+import { vw } from "react-native-expo-viewport-units";
 import FacebookButton from "./FacebookButton";
 
 class LoginForm extends React.Component {
@@ -16,10 +16,8 @@ class LoginForm extends React.Component {
 const styles = StyleSheet.create({
   buttonContainer: {
     width: vw(100),
-    height: vh(15),
     backgroundColor: "#dcffd6",
-    top: 210,
-    justifyContent: "space-around",
+    top: 260,
     alignItems: "center"
   }
 });
